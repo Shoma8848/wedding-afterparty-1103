@@ -3,12 +3,13 @@
 window.SITE = {
   title: "Wedding After Party",
   couple: "昇真 & 令奈",
-  updated: "2026-10-26 00:00",
+  updated: "2026-10-26 00:15",
 
   // 基本情報（空欄の項目は表示されません）
   info: {
     date: "2026年11月3日（火・祝）",
     reception: "14:50〜",
+    receptionNote: "※少し前から入場可能です",
     venue: "ダイニング アンド バー チアーズ【Dining&Bar Cheers】",
     address: "埼玉県さいたま市大宮区桜木町2-223 モナークヴィラ",
     mapUrl: "https://maps.app.goo.gl/vSoYQLyySK16XMLEA",
