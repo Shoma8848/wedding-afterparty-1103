@@ -3,7 +3,7 @@
 window.SITE = {
   title: "Wedding After Party",
   couple: "昇真 & 令奈",
-  updated: "2026-10-25 23:45",
+  updated: "2026-10-26 00:00",
 
   // 基本情報（空欄の項目は表示されません）
   info: {
@@ -12,6 +12,7 @@ window.SITE = {
     venue: "ダイニング アンド バー チアーズ【Dining&Bar Cheers】",
     address: "埼玉県さいたま市大宮区桜木町2-223 モナークヴィラ",
     mapUrl: "https://maps.app.goo.gl/vSoYQLyySK16XMLEA",
+    addressNote: "※バス停車所から徒歩5分程度",
     fee: "6,000円（現金）\n受付にお渡しください",
     dress: "",
     contact: ""
@@ -19,7 +20,9 @@ window.SITE = {
 
   // 当日の流れ
   schedule: [
-    { time: "14:50", text: "受付開始" },
+    { time: "13:30", text: "披露宴終了" },
+    { time: "14:00", text: "シャトルバス（式場⇒大宮駅）" },
+    { time: "14:30〜14:50", text: "受付開始" },
     { time: "", text: "ご自由にビュッフェ、飲み物をお楽しみください" },
     { time: "〜16:00", text: "新郎新婦 到着（少し早まる場合があります）" },
     { time: "17:40", text: "お開き" }

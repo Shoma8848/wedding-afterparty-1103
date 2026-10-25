@@ -193,6 +193,9 @@
     if (l[0] === "address" && S.info.mapUrl) {
       body += '<br><a href="' + esc(S.info.mapUrl) + '" target="_blank" rel="noopener">地図を開く</a>';
     }
+    if (l[0] === "address" && S.info.addressNote) {
+      body += '<br><span style="color:var(--sub);font-size:14px">' + esc(S.info.addressNote) + "</span>";
+    }
     html += "<div><dt>" + l[1] + "</dt><dd>" + body + "</dd></div>";
   });
   $("infoList").innerHTML = html;
