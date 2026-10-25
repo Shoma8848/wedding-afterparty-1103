@@ -3,7 +3,7 @@
 window.SITE = {
   title: "Wedding After Party",
   couple: "昇真 & 令奈",
-  updated: "2026-10-25 23:00",
+  updated: "2026-10-25 23:30",
 
   // 基本情報（空欄の項目は表示されません）
   info: {
@@ -20,6 +20,7 @@ window.SITE = {
   // 当日の流れ
   schedule: [
     { time: "14:50", text: "受付開始" },
+    { time: "", text: "ご自由にビュッフェ、飲み物をお楽しみください" },
     { time: "〜16:00", text: "新郎新婦 到着（少し早まる場合があります）" },
     { time: "17:40", text: "お開き" }
   ],
