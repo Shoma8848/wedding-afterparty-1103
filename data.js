@@ -3,7 +3,7 @@
 window.SITE = {
   title: "Wedding After Party",
   couple: "昇真 & 令奈",
-  updated: "2026-10-25 23:30",
+  updated: "2026-10-25 23:45",
 
   // 基本情報（空欄の項目は表示されません）
   info: {
@@ -27,11 +27,12 @@ window.SITE = {
 
   // お知らせ（新しいものを上に）
   news: [
-    { date: "2026-10-25", text: "サイトを公開しました。会場図は後日掲載します。" }
+    { date: "2026-10-25", text: "会場図を掲載しました。" },
+    { date: "2026-10-25", text: "サイトを公開しました。" }
   ],
 
   // 会場図の画像（届いたら images/ に置いてファイル名を書く）
-  floorMap: "",
+  floorMap: "images/floormap.jpg",
 
   // 会場の写真
   photos: [

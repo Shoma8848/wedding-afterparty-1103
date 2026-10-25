@@ -253,7 +253,8 @@
 
   // 会場図
   $("mapBox").innerHTML = S.floorMap
-    ? '<img src="' + esc(S.floorMap) + '" alt="会場図">'
+    ? '<a href="' + esc(S.floorMap) + '" target="_blank" rel="noopener"><img src="' + esc(S.floorMap) +
+      '" alt="会場図"></a><p class="note">タップすると拡大できます</p>'
     : '<div class="placeholder">会場図は後日掲載します</div>';
 
   // お知らせ
